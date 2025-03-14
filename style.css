@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --primary-color:#042940;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background:var(--primary-color);
+}
+
+.container{
+    max-width: 600px;
+    margin:100px auto;
+    background: white;
+    padding: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado{
+    color: #731702;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    border: solid 2px;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+}
+
+.iniciar{
+    background-color: #005C53;
+}
+
+.pausar{
+    background-color: #731702;
+}
+
+.zerar{
+    background-color: #042940;
+    transition: 1s;
+}
+
+.zerar:hover{
+    color: #042940;
+    background-color: white;
+    transition: 1s;
+}
+
+.pausar:hover{
+    background-color: white;
+    color: #731702;
+    transition: 1s;
+}
+
+.iniciar:hover{
+    background-color: white;
+    color: #005C53;
+    transition: 1s;
+
+}
+
